@@ -1,0 +1,23 @@
+Notes from github
+
+Global setup:
+ Download and install Git
+  git config --global user.name "Arr Matey"
+  git config --global user.email rm8t@me.com
+        
+Next steps:
+  mkdir helloworld
+  cd helloworld
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:rm8t/helloworld.git
+  git push origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:rm8t/helloworld.git
+  git push origin master
+
+
